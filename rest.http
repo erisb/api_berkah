@@ -1,0 +1,21 @@
+
+
+
+# POST http://127.0.0.1:8001/borrower/register
+# Content-Type: application/json
+
+# {
+#     "username" : "test",
+#     "email" : "email@mail.com",
+#     "password" : "123123",
+# }
+#
+
+POST http://127.0.0.1:8001/borrower/register
+Content-Type: application/json
+
+{
+    "username" : "test",
+    "email" : "email@mail.com",
+    "password" : "123123",
+}
